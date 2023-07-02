@@ -18,8 +18,8 @@
             })
             .then(data => {
                 console.log(data);
-                data.forEach(q => {
-                    const markup = `<li>${q.answers}</li>`;
+                data.forEach(answers => {
+                    const markup = `<li>${answers.val}</li>`;
 
                     document.querySelector('ul').insertAdjacentHTML('beforeend',markup);
 
