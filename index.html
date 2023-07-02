@@ -18,6 +18,12 @@
             })
             .then(data => {
                 console.log(data);
+                data.forEach(question => {
+                    const markup = `<li>${question.answers}</li>`;
+
+                    document.querySelector('ul').insertAdjacentHTML('beforeend',markup);
+                    
+                })
             })
             .catch(error => console.log(error));
     </script>
