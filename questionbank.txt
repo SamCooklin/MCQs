@@ -2,7 +2,7 @@
     {
         "id": 1,
         "question": "Examine the following statements about central bank policy, competition (antitrust) policy, and credit market. Choose the two statements that are true",
-        answers: {
+        "answers": {
 
         
             "answer1": {
